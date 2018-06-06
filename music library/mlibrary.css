@@ -20,16 +20,15 @@ iframe
 	background-color:black;
 }
 
+iframe
+{	width:100%;
+}
+
+
 #main
 {
 	float:center;
 }
-
-iframe
-{	width:100%;
-	height: auto;
-}
-
 
 #tables
 {
