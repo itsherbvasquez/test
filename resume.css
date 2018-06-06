@@ -1,0 +1,59 @@
+body {background-color: black;}
+	p {color: white;}
+	#headertext {color: white;}
+	#workinfo {color:blue;}
+	#intro {color:aqua;}
+#intro
+{
+	text-align:left
+}
+
+#intro
+{
+	word-wrap: break-word;
+}
+
+#workexp
+{
+	text-align:left
+}
+
+#workexp
+{
+	word-wrap: break-word;
+}
+
+#mostrecent
+{
+	text-align:left
+}
+#mostrecent
+{
+	text-decoration: underline
+
+}
+
+#mostrecent
+
+{
+	text-decoration-color: white
+}
+
+.jobs
+
+{
+text-align:left
+}
+
+#gslist
+
+{
+	color: white;
+
+}
+
+#gslist
+
+{
+	text-align:left
+}
