@@ -1,0 +1,44 @@
+body
+{
+	background-color: aqua;
+}
+
+
+
+table, th, td {
+		border:1px solid black;
+}
+
+#main
+	{float: center
+		;
+
+	}
+
+iframe
+{
+	background-color:black;
+}
+
+#main
+{
+	float:center;
+}
+
+iframe
+{	width:100%;
+	height: auto;
+}
+
+
+#tables
+{
+	float: center;
+ direction: ltr;
+}
+
+tables
+{
+	width:100%;
+	height:70%;
+}
