@@ -1,35 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="tictactoe.css">
+<head>
+<link rel="stylesheet" href="tictactoe.css">
+</head>
 <body>
 
-<center><h2>tic-tac-toe</h2>
-<br>
-<br>
+<div class="jsbutton">
 
-<table id="top" class="n-bordered">
-	<table style="width:45%">
-<tr>
-<td height="150">
-		<th></th>
-		<th></th>
-		</td>
+	<button type="button"
+				onclick="document.getElementById('tictactable') .innerHTML = Date ()">
+	Play!</button>
 
-<table id="mid" class="n-bordered">
-		<table style="width:45%">
-<tr>
-<td height="150">
-		<th></th>
-		<th></th>
-		</td>
+</div>
 
-<table id="bot" class="n-bordered">
-<table style="width:45%">
-<tr>
-<td height="150">
-		<th></th>
-		<th></th>
-		</td></center>
+<div class="tictactable">
+
+
+	<table>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+</div>
+</body>
+</html>

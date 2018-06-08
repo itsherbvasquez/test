@@ -1,15 +1,30 @@
-body {background-color: white;}
-
-table, th, td {
-		border:1px solid black;
+td {
+border: 0.5px solid black;
+height: 70px;
+width: 70px;
+align: center;
 }
 
-table, th, td {
-	border-collapse: collapse;
+.tictactable
+	{margin: auto;
+		width: 60%;
+		padding: 0;
+	}
+
+.tictactable
+{
+	float:center;
+	border: none;
 }
 
-#top{
-		border: none;
+td
+{
+	padding:0;
 }
 
-
+.jsbutton
+	{
+		margin-left:100px;
+		margin-right:100px;
+		margin-bottom: auto;
+	}
